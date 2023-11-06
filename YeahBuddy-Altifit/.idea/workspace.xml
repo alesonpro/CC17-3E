@@ -10,9 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2027a4a7-f98f-4feb-8dd1-0a52092c3cf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/register_activity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/S312user/Desktop/tets/CC17-3E/YeahBuddy-Altifit"
+    "last_opened_file_path": "C:/Users/S312user/Desktop/altifit/CC17-3E/YeahBuddy-Altifit"
   }
 }]]></component>
   <component name="RecentsManager">
