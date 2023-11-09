@@ -1,5 +1,3 @@
-<!-- res/layout/login_activity.xml -->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -29,8 +27,10 @@
         android:drawableTint="#FFFFFF"
         android:hint="Username"
         android:inputType="text"
+        android:minHeight="48dp"
         android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF" />
+        android:textColorHint="#FFFFFF"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -40,22 +40,35 @@
         android:backgroundTint="#FFFFFF"
         android:hint="Password"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF" />
+        android:textColorHint="#FFFFFF"
+        tools:ignore="VisualLintTextFieldSize"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Login" />
+        android:backgroundTint="#740A00"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#740A00"
+        tools:ignore="VisualLintButtonSize" />
 
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Register" />
+        android:backgroundTint="#740A00"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        tools:ignore="VisualLintButtonSize" />
 
     <TextView
         android:id="@+id/textViewSignUp"
