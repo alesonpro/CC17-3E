@@ -10,10 +10,12 @@ class Home_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
-        fun openNewActivity(view: View) {
-            val intent = Intent(this, Mobility_Activity::class.java)
-            startActivity(intent)
-        }
+    }
+    fun openStretchingActivity(view: View) {
+        val intent = Intent(this,Stretching_Activity::class.java)
+        startActivity(intent)
     }
 }
+
+
+
