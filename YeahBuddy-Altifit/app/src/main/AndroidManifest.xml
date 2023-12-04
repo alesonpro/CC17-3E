@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Altifit"
         tools:targetApi="31">
         <activity
-            android:name=".Stretching_Activity"
+            android:name=".Deadlift_Activity"
             android:exported="false" />
         <activity
-            android:name=".Mobility_Activity"
+            android:name=".Stretch_Activity"
             android:exported="false" />
         <activity
             android:name=".Register_Activity"
