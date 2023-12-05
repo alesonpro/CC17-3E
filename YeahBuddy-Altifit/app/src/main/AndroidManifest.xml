@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Altifit"
         tools:targetApi="31">
         <activity
+            android:name=".Setup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Calisthenics_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Curl_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Agility_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Deadlift_Activity"
             android:exported="false" />
         <activity

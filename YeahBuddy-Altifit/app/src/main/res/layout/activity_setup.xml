@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="Deadlift"
+            android:text="Benchpress"
             android:layout_marginTop="10dp"
             android:layout_margin="10dp"
             android:textSize="24sp"
@@ -37,7 +37,7 @@
                 android:id="@+id/imageView1"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/lift_1"
+                android:src="@drawable/bench_1"
                 app:civ_border_width="1dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -51,7 +51,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Conventional Deadlift"
+                android:text="Decline Press"
                 android:layout_margin="10dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -76,7 +76,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/lift_2"
+                android:src="@drawable/bench_2"
                 app:civ_border_width="1dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -92,7 +92,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Romanian Deadlift"
+                android:text="Close Grip Press"
                 android:layout_margin="10dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -116,7 +116,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/lift_3"
+                android:src="@drawable/bench_3"
                 app:civ_border_width="1dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -132,7 +132,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Sumo Deadlift"
+                android:text="Dumbbell Press"
                 android:layout_margin="10dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -157,7 +157,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/lift_4"
+                android:src="@drawable/bench_4"
                 app:civ_border_width="1dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -173,7 +173,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Kettlebell Deadlift"
+                android:text="Wide Grip Press"
                 android:layout_margin="10dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -187,47 +187,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp">
-
-
-            <!-- Round Image on the left -->
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/imageView5"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/lift_5"
-                app:civ_border_width="1dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.5"
-                android:layout_marginStart="16dp"
-                android:scaleType="centerCrop"/>
-
-
-
-            <!-- Title on the right -->
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="Snatch Grip Deadlift"
-                android:layout_margin="10dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@id/imageView5"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@id/imageView5"
-                app:layout_constraintTop_toTopOf="@id/imageView5" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
         <!-- Add more content here if needed -->
-
     </LinearLayout>
 
 </ScrollView>

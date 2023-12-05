@@ -182,8 +182,11 @@
                     android:gravity="center_horizontal">
 
                     <ImageView
+                        android:id="@+id/agility"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
+                        android:clickable="true"
+                        android:focusable="true"
                         android:src="@drawable/workout_3"
                         android:scaleType="centerCrop"
                         android:contentDescription="Workout Image 3"/>
@@ -206,8 +209,11 @@
                     android:layout_marginStart="8dp">
 
                     <ImageView
+                        android:id="@+id/curl"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
+                        android:clickable="true"
+                        android:focusable="true"
                         android:src="@drawable/workout_4"
                         android:scaleType="centerCrop"
                         android:contentDescription="Workout Image 4"/>
@@ -236,8 +242,11 @@
                     android:gravity="center_horizontal">
 
                     <ImageView
+                        android:id="@+id/calisthenic"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
+                        android:clickable="true"
+                        android:focusable="true"
                         android:src="@drawable/workout_5"
                         android:scaleType="centerCrop"
                         android:contentDescription="Workout Image 3"/>
@@ -260,8 +269,11 @@
                     android:layout_marginStart="8dp">
 
                     <ImageView
+                        android:id="@+id/bench"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
+                        android:clickable="true"
+                        android:focusable="true"
                         android:src="@drawable/workout_6"
                         android:scaleType="centerCrop"
                         android:contentDescription="Workout Image 4"/>
@@ -269,14 +281,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="How to setup bench"
+                        android:text="Benchpress"
                         android:textSize="16sp"
                         android:textColor="#FFFFFF"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
 </LinearLayout>
 
 
