@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472112073945",
+    "project_id": "altifit-app",
+    "storage_bucket": "altifit-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472112073945:android:0d626cc00975412575c2c8",
+        "android_client_info": {
+          "package_name": "com.example.altifit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfGxabvJ2gRDqp5UKKFyHPbTyhivRW5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

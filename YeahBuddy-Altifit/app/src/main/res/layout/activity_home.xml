@@ -30,7 +30,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Workout Categories"
+                android:text="Altifit Categories"
                 android:textSize="20sp"
                 android:textColor="#FFFFFF"
                 android:layout_marginTop="16dp"/>
@@ -53,28 +53,30 @@
                         android:layout_marginEnd="8dp"
                         android:background="#740A00"
                         android:textSize="12sp"
-                        android:text="Strength Training"
-                        android:textColor="#FFFFFF"
-                        style="?android:attr/buttonBarButtonStyle" />
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
-                        android:background="#740A00"
-                        android:textSize="12sp"
                         android:text="Cardio"
                         android:textColor="#FFFFFF"
                         style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
+                        android:id="@+id/cat_cardio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:background="#740A00"
+                        android:textSize="12sp"
+                        android:text="Nutrition"
+                        android:textColor="#FFFFFF"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                    <Button
+                        android:id="@+id/cat_weightloss"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
                         android:background="#740A00"
                         android:textSize="12sp"
                         android:backgroundTint="#740A00"
-                        android:text="Yoga"
+                        android:text="Weight Loss"
                         android:textColor="#FFFFFF"
                         style="?android:attr/buttonBarButtonStyle" />
 
