@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd7268a-b279-435f-abc0-7daed0c5dd5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/WebView_Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Agility_Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Agility_Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Calisthenics_Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Calisthenics_Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Curl_Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Curl_Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Deadlift_Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Deadlift_Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Setup_Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Setup_Activity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Stretch_Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/altifit/Stretch_Activity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
